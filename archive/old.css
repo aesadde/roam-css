@@ -1,0 +1,167 @@
+/* Custom data tags */
+
+span.rm-page-ref[data-tag="Tweets"] {
+    background: #2980b9 !important;
+    color: white !important;
+    padding: 3px 7px;
+    line-height: 2em;
+    font-weight: 500;
+}
+
+span.rm-page-ref[data-tag="Projects"]::before {
+    content: "🗓 "
+}
+
+span.rm-page-ref[data-tag="Projects"] {
+    background: #2980b9 !important;
+    color: white !important;
+    padding: 3px 7px;
+    line-height: 2em;
+    font-weight: 500;
+}
+
+span.rm-page-ref[data-tag="Books"]::before {
+    content: "📚 "
+}
+
+span.rm-page-ref[data-tag="Books"] {
+    background: #8e44ad !important;
+    color: white !important;
+    padding: 3px 7px;
+    font-weight: 500;
+    line-height: 2em;
+}
+
+span.rm-page-ref[data-tag="People"] {
+    background: #8e44ad !important;
+    color: white !important;
+    font-weight: 500;
+    line-height: 2em;
+}
+
+span.rm-page-ref[data-tag="Ideas"] {
+    background: #e67e22 !important;
+    color: white !important;
+    padding: 3px 7px;
+    line-height: 2em;
+    font-weight: 500;
+}
+
+span.rm-page-ref[data-tag="Ideas"]::before {
+    content: "💡"
+}
+
+span.rm-page-ref[data-tag="Recipes"] {
+    background: #e67e22 !important;
+    color: white !important;
+    padding: 3px 7px;
+    font-weight: 500;
+    line-height: 2em;
+}
+
+span.rm-page-ref[data-tag="Videos"] {
+    background: #f1c40f !important;
+    color: white !important;
+    padding: 3px 7px;
+    font-weight: 500;
+    line-height: 2em;
+}
+
+span.rm-page-ref[data-tag="Articles"] {
+    background: #27ae60;
+    color: #fff;
+    padding: 3px 7px;
+    line-height: 2em;
+    font-weight: 500;
+}
+
+span.rm-page-ref[data-tag="Goals"] {
+    background: #27ae60;
+    color: #fff;
+    padding: 3px 7px;
+    line-height: 2em;
+    font-weight: 500;
+}
+
+span.rm-page-ref[data-tag="Goals"]::before {
+    content: "🎯"
+}
+
+span.rm-page-ref[data-tag="Podcasts"] {
+    background: #7f8c8d;
+    color: #fff;
+    padding: 3px 7px;
+    line-height: 2em;
+    font-weight: 500;
+}
+
+span.rm-page-ref[data-tag="To-Process"] {
+    background: #e74c3c;
+    color: #fff;
+    padding: 3px 7px;
+    line-height: 2em;
+    font-weight: 500;
+}
+
+
+/* add content before a tag (change yourTagHere to the tag)
+   you can also add content ::after */
+
+span.rm-page-ref[data-tag="In-Process"]::before {
+    content: "🖋 "
+}
+
+
+/* style tag text */
+
+span.rm-page-ref[data-tag="In-Process"] {
+    background: #31b350 !important;
+    padding: 3px 7px;
+    color: white !important;
+    line-height: 2em;
+    font-weight: 500;
+}
+
+
+/* style tag text */
+
+span.rm-page-ref[data-tag="Quotes"] {
+    background: blue !important;
+    padding: 3px 7px;
+    color: white !important;
+    line-height: 2em;
+    font-weight: 500;
+}
+
+
+/* add content before a tag (change yourTagHere to the tag)
+   you can also add content ::after */
+
+span.rm-page-ref[data-tag="To-Create"]::before {
+    content: "✍️"
+}
+
+
+/* style tag text */
+
+span.rm-page-ref[data-tag="To-Create"] {
+    background: orange !important;
+    padding: 3px 7px;
+    color: white !important;
+    line-height: 2em;
+    font-weight: 500;
+}
+
+span[data-tag="Habit Tracker"] {
+    padding: .3em .5em .3em;
+    line-height: 1;
+    font-size: .9em;
+    font-weight: 400;
+    background-color: #F7FAFC;
+    border: 1px solide #CBD5E0;
+    border-radius: 5px;
+}
+
+span[data-link-title="Habit Tracker"] span.rm-page-ref--link {
+    color: #A0AEC0 !important;
+}
