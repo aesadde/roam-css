@@ -59,7 +59,8 @@ category_tags = [
     Tag("Projects","📁"),
     Tag("Tools", "⚒️"),
     Tag("Recipes","🥘"),
-    Tag("Tweets", "", before_style=before_style_with_image("https://raw.githubusercontent.com/johan/svg-cleanups/master/logos/twitter.svg"))
+    Tag("Tweets", "", before_style=before_style_with_image("https://raw.githubusercontent.com/johan/svg-cleanups/master/logos/twitter.svg")),
+    Tag("Question", "⁉️", tag_style_with_color(bg_color="#cc8f4d"))
 ]
 
 workflow_tags = [

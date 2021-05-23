@@ -144,6 +144,20 @@ background-image: url("https://raw.githubusercontent.com/johan/svg-cleanups/mast
     width: 14px;
     height: 12px;
     }
+/* Question */
+ span.rm-page-ref[data-tag="Question"] {
+    padding: 3px 7px;
+    line-height: 2em;
+    font-weight: 500;
+    color: #000000;
+    background-color: #cc8f4d;
+    border-radius: 5px;
+    
+}
+span.rm-page-ref[data-tag="Question"]:before {
+content: "⁉️";
+ margin-right: .5em;
+}
 /* To-Process */
  span.rm-page-ref[data-tag="To-Process"] {
     position: relative;
